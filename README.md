@@ -7,7 +7,7 @@ This is the frontend code for an API I developed that saves contact information.
 
  <tr>
     <td width="100%"  style="align:center;" valign="top">
-            <img src="https://github.com/ubemacapuno/images-for-github-readme/blob/main/warzone-random-dropzone-api.gif?raw=true" width="100%"  alt="Random Dropzone Front-end application."/>
+            <img src="https://github.com/ubemacapuno/images-for-github-readme/blob/main/contact-list.gif?raw=true" width="100%"  alt="Random Dropzone Front-end application."/>
     </td>
   </tr>
 
