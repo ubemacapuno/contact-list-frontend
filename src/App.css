@@ -179,3 +179,17 @@ h2{
 .hitList span{
   color: var(--nav-color);
 }
+
+@media (max-width: 400px) {
+
+  .inputCard, .hitList {
+    width: 250px;
+    align-items: center;
+  } 
+}
+
+@media (max-width: 320px) {
+  .inputCard, .hitList {
+    width: 200px;
+  } 
+}
