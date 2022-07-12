@@ -19,14 +19,14 @@ function App() {
   
   //Call the useEffect Hook that we will use for our GET request; we will then want this object to populate our front-end page!
   useEffect(()=>{
-    Axios.get('http://localhost:3001/read').then((response)=>{
+    Axios.get('https://mern-crud-contact-list.herokuapp.com/read').then((response)=>{
       setHitlistList(response.data)      
     })
   }, []) //by using ", []", we will be calling this function ONCE
 
   const addToList = () => {
     // console.log([contactName] + [company] + [phone] + [email] + [position] + [fact] + [addedOnSocialMedia])
-    Axios.post('http://localhost:3001/insert', {
+    Axios.post('https://mern-crud-contact-list.herokuapp.com/insert', {
       //We're sending this object to the backend! 
       //See how the values are equal to the states we already have listed above.
       contactName: contactName, 
@@ -41,12 +41,12 @@ function App() {
 
   //Create function for UPDATING the contact name (crUd)
   const updateAdditional= (id) => { //pass whatever id is inside of the element currently in the namelist map
-    Axios.put("http://localhost:3001/update", {id: id, newAdditionalInfo: newAdditionalInfo})
+    Axios.put("https://mern-crud-contact-list.herokuapp.com/update", {id: id, newAdditionalInfo: newAdditionalInfo})
   }
 
    //Create function for DELETING the contact name (cruD)
    const deleteContact= (id) => { //pass whatever id is inside of the element currently in the namelist map
-    Axios.delete(`http://localhost:3001/delete/${id}`)//can't pass objects when using delete, but you CAN pass a parameter; in this case the URL.
+    Axios.delete(`https://mern-crud-contact-list.herokuapp.com/delete/${id}`)//can't pass objects when using delete, but you CAN pass a parameter; in this case the URL.
   }
 
 
