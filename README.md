@@ -1,7 +1,8 @@
 # Random DropZone API (COD - Warzone): 
 # Visit the <a target="_blank" href="https://contact-list-mern.netlify.app/">Front-End App on Netlify</a>!
 
-This is the frontend code for an API I developed that saves contact information. You can add contacts, delete contacts, and also edit the "additional info" section for each contact. The API is hosted on Herokuapp.com, and the backend is stored on MongoDB Atlas.
+This is the <strong>Frontend code</strong> for an app I developed that saves contact information. You can add contacts, delete contacts, and also edit the "additional info" section for each contact. The API is hosted on Herokuapp.com, and the backend is stored on MongoDB Atlas.
+You may find the <strong>backend code repo</strong> <a target="_blank" href="https://github.com/ubemacapuno/contact-list-backend">HERE</a>!
 
 <i><strong>*Please Note:</strong> The server is hosted on a free Herokuapp.com account, so please allow 15-30 seconds for their dyno to respond!</i>
 
