@@ -33,7 +33,7 @@ With the backend code (on another repository), start up the server using Node wi
 
 ## Optimizations:
 
-As I learn more, I'd like to develop the application so that it updates on click in real-time. Currently, you MUST refresh the page after each request to grab the updated data. I would also like a more user-friendly UI and make it possible to update ALL fields; currently only the "additional info" field can be updated.
+As I learn more, I'd like to develop the application so that it updates on click in real-time. Currently, you MUST refresh the page after each request to grab the updated data. I would also like a more user-friendly UI and make it possible to update ALL fields; currently only the "additional info" field can be updated. Also ALL IPs are whitelisted for this project, so authentication will definitely be a feature that I will include for future MERN projects.
 
 ## Lessons Learned:
 
